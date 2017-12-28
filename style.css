@@ -5,21 +5,74 @@ a{
 		background-wight: 100px;
 }
 
+a:hover {
+		background-color: yellow;
+}
+
 body {
-		background-color: linen;
+		background-color: #f2f2f2;
 		color: #333300;
 }
 
-img {
-		border: 20px solid #cceeff;
+img {	border-radius: 5px;
+		cursor: pointer;
+		transition: 1s ease;
+		padding: 20px 10px 20px 10px;
+		margin: 30px;
 	}
 
+#portrait {
+	border: 10px solid #adad85;
+	background-color: #6b6b47;
+}
+
+#portrait:hover {
+	background-color: #ff4d4d;
+}
+
+#books {
+	border: 10px solid #404040;
+	background-color: #ffff99;
+}
+
+#books:hover {
+	background-color: #cca300;
+}
+
+#video {
+	border: 10px solid #404040;
+	background-color: #ccd9ff;
+	padding: 20px 10px 20px 10px;
+	margin: 30px;
+}
+
+#video:hover {
+	background-color: #3366ff;
+}
+
 p {
+		font-family: 'Alegreya Sans', sans-serif;
 		background-image: url("https://i.pinimg.com/originals/b8/c2/b8/b8c2b8bcaea666e328701a0ea359b1a2.jpg");
-		width: 150px;
+		width: 250px;
 	}
+
+
+h2 {
+	font-family: 'Roboto Mono', monospace;
+}
+
 
 pre {
 		background-image: url("http://bavotasan.com/wp-content/uploads/2009/09/blue.jpg");
-		width: 210px;
+		width: 250px;
+	}
+
+	.email {
+		background-color: #ff4d4d;
+		padding: 10px;
+
+	}
+
+	.email:hover {
+		background-color: #c2c2d6;
 	}
