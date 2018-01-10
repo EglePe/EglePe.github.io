@@ -5,7 +5,6 @@ function plytele(){
  $a = 7;
  $plytelesPlotis = $i * $a;
   return $plytelesPlotis;
-  echo "Plyteles plotis: ".$plytelesPlotis."<br />";
 }
 
 //BASEINO FUNKCIJA
@@ -16,7 +15,6 @@ $a = 15;
  
 $baseinoPlotis = $i * $p + ($i * $a) * 2 + ($p * $a) *2;
   return $baseinoPlotis;
-  echo "Baseino bendras plotis yra: ".$baseinoPlotis."<br />";
   
 }
 
@@ -24,8 +22,9 @@ $baseinas = baseinas($baseinoPlotis);
 $plytele = plytele($plytelesPlotis);
 
 $plyteliuKiekis = $baseinas / $plytele;
-echo "Plyteles plotis: ".$baseinas."<br />";
-echo "Baseino bendras plotis yra: ".$plytele."<br />";
+echo "Plyteles plotis: ".$plytele."<br />";
+echo "Baseino bendras plotis yra: ".$baseinas."<br />";
 echo "Is viso reikes ".ceil($plyteliuKiekis)." plyteliu.";
+
 
 ?>
