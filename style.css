@@ -4,7 +4,7 @@
 
 .jumbotron {
     text-align: center;
-    background-image: url("jumbotron.png");
+    background-image: url("images/jumbotron.png");
     background-size: cover;
     height: 737px;
     color: #666666;
@@ -18,25 +18,33 @@
 
 #row1 {
     margin: 70px 0;
-    padding: 25px 10px 10px 90px;
+    /*padding: 25px 10px 10px 90px;*/
 }
 
 #row1pic {
-margin: auto;
-width: 330px;
-height: 306px;
+    margin: auto;
+    height: 277px;
+    width: 298px;
 
 }
 
-#row2, #row3, #row4, #row5, #row6 {
+#row2, #row4, #row6, #row8 {
     background-color: #f2f2f2;
-    padding: 25px 10px 10px 90px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
 
-#row7, #row8 {
-    padding: 15px 0 40px 90px;
+#row3, #row5, #row7 {
+    background-color: #f2f2f2;
+    padding-top: 0;
+    padding-left: 25px;
+}
+
+#pic2_back, #pic3_back, #pic4_back, #pic5_back, #pic6_back, #pic7_back, #pic8_back, #pic9_back, #pic10_back {
     background-color: #f2f2f2;
 }
+
 
 #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10 {
     width: 280px;
@@ -44,17 +52,14 @@ height: 306px;
     margin: 5px auto;
 }
 
-.view1 {
-    text-align: right;
-    width: 290px;
+.view {
     font-size: 15px;
-    margin: 5px 40px 5px 5px;
 }
 
 #line {
     float: left;
-    width: 200px;
-    height: 5px;
+    width: 150px;
+    height: 2px;
     background-color: grey;
     margin: 14px 0 0 0;
     padding: 0;
@@ -63,14 +68,10 @@ height: 306px;
 .r_m_lines {
     float: right;
     width: 45px;
-    height: 3px;
+    height: 2px;
     background-color: grey;
     margin: 12px 0 0 0;
     padding: 0;
-}
-
-#galleries {
-    padding: 0 10px 0 15px;
 }
 
 #line_div {
@@ -78,7 +79,8 @@ height: 306px;
 }
 
 #row9 {
-    padding: 100px;
+   padding-top: 90px;
+   padding-left: 25px;
 }
 
 #row10, #row11 {
@@ -86,7 +88,7 @@ height: 306px;
 }
 
 #test1, #test2, #test3 {
-    margin: 5px 5px 0 0;
+    /*margin: 5px 5px 0 0;*/
 }
 
 .read_more {
