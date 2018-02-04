@@ -1,7 +1,0 @@
-CSS Transition
-
-CSS :nth-child() Selector   https://www.w3schools.com/cssref/sel_nth-child.asp
-
-<video controls poster muted autoplay loop...> </video>
-
-Royalty free videos: https://www.videvo.net/
